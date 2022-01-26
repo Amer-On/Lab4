@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/amer-on/CLionProjects/Lab4/src/cpp/HistoricalEvent.h
+iostream
+-
+string
+-
+
+/Users/amer-on/CLionProjects/Lab4/src/cpp/Main.cpp
+iostream
+-
+HistoricalEvent.h
+/Users/amer-on/CLionProjects/Lab4/src/cpp/HistoricalEvent.h
+
